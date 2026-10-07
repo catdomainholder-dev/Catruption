@@ -1,0 +1,40 @@
+(Abilites)
+Scaredy rabbid: Apply your primaries super ability to all enemies in a radius around you, does a percentage of your primaries damage.
+Defend: Make your allies invulnerable if they were in a radius around you upon activation
+Effect shield: Create a small area around you that follows you for 2 turns, allies in the radius are immune and cleansed of super effects.
+super barrier: unchanged
+bubble barrier: unchanged
+hero sight / stealy stare: unchanged
+itchy feet: unchanged
+M power: unchanged.
+Outer shell: unchanged
+bodyguard: removed in favor of refuse
+royal sight: removed in favor of effect shield
+Refuse: If an enemy attempts to activate an ability in a radius around you, instantly deactivate it. two activations per use.
+
+
+(movement effects)
+(Mario) Stomp: unchanged.
+(Luigi) Double jump: unchanged.
+(Peach) Heal jump: unchanged.
+(Yoshi) Ground pound: unchanged.
+(R'Mario) Dash explosion: unchanged.
+(R'Luigi) Dash effect: Apply your primaries super effect to enemies you dash into and does normal dash damage.
+(R'Peach) Burn Rush: Dash the same enemy multiple times, each subsequent dash gains +1 range.
+(R'Yoshi) Mole: Scale walls, don't activate hero sight.
+
+
+(primaries)
+Boomshot: moved
+Rumblebang: removed
+Blaster: Pick two targets to shoot at on your turn or shoot the same enemy twice, like sparks of hope.
+Percision: no longer pierces
+Bworb: Basically acts like DK's boomerang that chains between enemies like a tesla but loses damage on each subsiquant hit and hits a max of 3 enemies.
+Melee (hammer): has a range of a 2x6 range in front, no hitting enemies from in front and behind like usual. But now it's always 100% accuracy and high super effect chance. the idea is those weird times where you are in front of an enemies 100% cover and can't get around it without taking a massive risk or in front of their 50% cover and while logically they're protected since they're "behind cover" but it still feels kinda weird cause they're literally right in front of you.
+
+
+(secondaries)
+sentry: unchanged
+rocket: super effect is always 0% if it hits cover and does even more damage to cover.
+grenade: always 100% super effect chance, doesn't need los, and deals more damage the closer you are to the enemy.
+boomshot: now that hammer is a primary boomshot is the strongest weapon in the game and is much more practical AND impractical since it isn't an amazing aoe that is always useful like hammer, you actually need to line up shots and aren't forced to use it if it's your primary. Does leagues to make it much more appealing.

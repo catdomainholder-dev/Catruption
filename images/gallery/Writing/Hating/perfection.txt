@@ -1,0 +1,117 @@
+    Math: senary, temperature and angles are the same. 'I dislike the current counting system, it's too long to say and type and exponentials of numbers can't be meaninglyfully shortened while still showing some info.'
+
+"0@1 is one, 1@1 is zen, 2@1 is di-zen, 3@1 is tri-zen 4@1 is tet-zen 5@1 is pen-zen" etc.
+"1@11 is one-zen-one, 2@111 is one-di-zen-one-zen-one,  3@1111 is one-tri-zen-one-di-zen-one-zen-one,"
+(Left @ is the exponential of the number while the right is the shortened version of the number.)
+
+80'₁₂ centiseconds = 1 second
+40'₁₂ seconds = 1 minute
+20'₁₂ minutes = 1 hour
+10'₁₂ hours = 1 day
+6'₁₂ days = 1 week (260₁₂ days = 1 year)
+50'₁₂ weeks = 1 year (51₁₂ with leap)
+
+Use factors: 6, 12, 30
+
+260'₁₂ ÷ 10'₁₂ = 26'₁₂ (months)
+6'₁₂ 6'₁₂ = 5'₁₂ (weeks/month)
+6'₁₂ days/week
+
+2004, 56, 3, (6, 12, 40, etc.)
+Year, week, day, (hour, minute, second,)
+
+- Spring: λ = 0°: March Equinox (Earth at point in orbit)
+- Summer: λ = 90°: June Solstice
+- Autumn: λ = 180°: September Equinox
+- Winter: λ = 270°: December Solstice
+
+Each degree = 1 day (since 260'₁₂ days/year approximation)
+
+
+    Modern living: 'This one is easy, don't design an car infested wasteland and take inspiration from dementia villages.'
+
+Some bonuses would be things like creating avenues for arts and crafts, like public 3d printers or machines to make custom circuit boards or cnc machining, there's lots of opportunity here. Skill exchange could easily happen in places like these by waiting and watching for people to use the things you want to and then ask them about it.
+
+We also reinstate the idea of a computer lab, my idea would be to basically abolished personal computers (sounds bad but hear me out) We develop a new system all about multiseating and multipointers, like a public super computer that people can tab into the service of for basically anything they need. Playing group games would be easier than ever, working on team projects in these places would be amazing, multiple people can access api's or search for books to read, this info all stays in one place allowing for a single computer to store and preserve large amounts of content that are free to read but difficult to copy or move due to the easy to monitor singular computer. This makes tech once again a way for people to come together and in a even better way that before.
+
+You can still have public computers, but they will be a luxury again. This would still benefit those people, like you can still connect and share your computer with others online to collaborate and do things together. Basically everything is peer to peer and a client server relationship, if this worked perfectly you wouldn't even need to create networking for games ever again which is the worst part of game dev.
+
+Libraries (The Commons Infrastructure)
+↓
+Tier 1: Survival Guarantees (Housing, Food, Healthcare)
+↓
+Tier 2: Growth Enablers (Education, Transit, Communication)
+↓
+Tier 3: Excellence Platforms (Research, Arts, Innovation)
+
+These things should all be free, they are all things people should have because they are the main scaffolding to give back to the world and let us move forward and innovate from each other.
+
+Harddrives are lvm because of the public computer idea and also all wires should be like the audio jack. it's small, rotateable, has a large surface area, doesn't break easily, doesn't get loose or wobbly because of it's length, and can be upscaled or downscaled by just screwing on an adapter for stuff like plugging into walls and gives it even more surface area.
+
+Modern shoes stuck, gender roles also suck.
+
+
+    School:
+
+
+
+
+
+    3D software: 'Animation systems are bad, no actual agreed on file format and we still operate on old logic.'
+
+Parenting an ball to the hand and then throwing the ball necessitates that parent of the ball to the hand be destroyed which destroys the previous animation of the ball tracking the hands movement since it's an offset based on the hand position parent that no longer exists. Making this a closed system that can't be fixed without-- world-space calculations, simply creating a temporary parent that guides the world-space bake and ensuring it always works during runtime no matter what. I'd opt to just add an offset to each object if you want to change and go all in on worldspace, so you can move the resting pose or single frames of animation in world-space without breaking the rest of the frames due to it's hierarchy. You want a tail to swish with FK and grab an object with IK and you can do that by just reversing the parent flow making the end of the tail the temporary root.
+
+Bones are primarily about the flow of bones, for bones to work without a bonus origin you need the ability to rotate by the head or tail and for their order to not matter to the animation system. If you flip a bone all objects connected to it also get flipped, which is not what we want. Then for the other part is that you can temporarily split a bone from one or more of it's connections but still have it reference them, and then have the ability to blend back it's connection (in world space of course) when you reach for a door handle your hand becomes a root to bend the arm, then the hand connects to the door handle with the connection interpolation and the root of the handle becomes the new root for the chain to open the door. This would probably be a better solution for robotics aswell than the current system we have.
+
+Something else I've thought about is eulers vs quaternions, quaternions are older than 3d software yet we still can't them to get used over eulers and they are still old garbage. What if instead we stored the yaw of the object and a vector that points up at default and can be used to rotate the object by just telling the system where it's pointing, that lets up create a custom axis of rotation easily and makes the system much less confusing. basically everything i want it non destructive workflows, temporary objects and axis rotations that get used during creation but are discarded at runtime since they are just guides to create the world space animation.
+
+I thought of being able to DRAW movement since the movevment is a custom axis and the rotation is a vector.  you get the arc, the speed, the blend, all in one easy stroke. The actual spin rotation of the object will probably be done like normal.
+
+Also, we need an actual standardized 3d file format that isn't complete garbo.
+
+Also i miss splines. At the very least subdivision needs to convert polys to splines, hopefully it becomes a thing if we ever get analog processor units so we can actually render them without killing the cpu cause gpus love triangles.
+
+
+    2D software: 'So close to being there but is currently split between alot of applications who suck your money out of you and lack a feature or two like raster or animation.
+
+Basically, it would just be moho with raster support and open source. If these projects die we need some fallback and not have to start from scratch after they enter the final stage of predatory pricing.
+
+Also bring back vector videos, they are so much better than raster videos but that doens't mean we should kill them, we need some way to layer vector and raster inbetween each other. Like it exports each layer into a single file that can then be stack on top of each other. On the topic of files, we need project files to be project folders like in video games, noone gets locked into a single workflow and layers are images with metadata for things like layer effects.
+
+
+    Basic tech annoyances:
+
+Web browsers are annoying and their language sucks, we need to tear it down and start over. Treat it like a game launcher with new webpages using a new language that exists alongside the current browsers so they don't have to compete and redo all the bullshit nonsensical browser standards that not even microsoft could figure out so they just gave up and forked chromium.
+
+Game engines are, okay? Honestly godot just needs to be less hierarchy focused and have decent imports which would be fixed with my previous suggestions, but hierarchies are a problem even at the file system level. So file systems need to abolish folders and use tags and sorting for everything, that would be great.
+
+
+      JAVA LIBRARY <──────> RUST  Software
+                │                                            │
+                └─────────┬─────────┘
+                                       │
+                                      OS (layer safety procautions)
+                                       │
+                                    BIOS (translates everything)
+                                        │
+                             SPECIFIC CPU (All translated code can talk to each other down here and is turned into the final instructions)
+                                        │
+                               HARDWARE (instructions are sent to the hardware)
+
+
+
+    Games: 'oh boy...'
+
+There's a delicate balance between games that have difficult inputs, and controllers which can directly send inputs and what to do about it. some would ban the controller, but i would argue this is like the case of an issue with the game like piracy being an issue of the service and cheating being an issue with balance and the community being overly competitive.
+
+Like, new razer keyboards allow perfect strafing by just ignoring an input stream while an opposite key is pressed and you know that would be a good thing to have by default, are people really advocating to keep strafing it games is it really fun? This is why i opt for physics based games, it's fundamentally harder to cheat on them due to no hit-scan and no instant movements and keystrokes are so short that it's fundamentally easier to learn them square than to make a macro for 20 moves which is why we did them in the first place.
+
+By optimizing for the foundation that supports our game, these things are necessary for the game-play to exist and are impossible to sidestep during development and extremely difficult to get around when cheating.
+
+You can still have execution skill, it just needs to be designed well. You can't cheat in a movement shooter with slides, dashes, rolls, and grappling hooks, because you need an ai basically playing the entire game and making decisions for you. Add enough of these options and then making them small command inputs so that you physically can't have 20 macros for all of them and it fundamentally restricts cheating, it would just be easier to learn it and get good.
+
+A game that is easy to cheat is the exact opposite, something like pong where there is only a single option that is so easy to cheat at that its the baseline standard for making ai play games.
+
+Having multiple options isn't just fun, it's important. In an action game a combo is whatever you want, in a fighting game a combo is a string of the exact same moves every single time since cool-downs don't exist so you fundamentally could use a macro here and trivialize it.
+
+There's a reason why arcade games were so good. My favourite games like towerfall or duckgame are definately quarter munchers, and i think a unified input system based on an arcade stick (Keyboard, mouse, and analog joystick) would be the PERFECT layout but it often forces one or the other.

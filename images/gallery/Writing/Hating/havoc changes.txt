@@ -1,0 +1,43 @@
+    Bhaal:
+Here's my idea: Only give weeping status on backstab, backstabs don't do max health damage anymore, non backstabs give bonus stacks on hit status'd enemy. (backstabs only apply the status, you want it, but you want to do front stabs too you want to alternate. Fake backstabs signal a premature change in gameplay since it applies the status before either are ready for it rather than just "oh hey, random triple damage" and they die) which levels out the problem of it happening without trying to force patch it out. i like abyss stack cost cause it does two things.
+
+(Z's cooldown is 3x longer but it's cast is twice as fast.) If Z is on cooldown, spend a abyss stack for even second it was on cooldown and cast the move anyway, don't reset the cooldown timer.
+
+You can do alot of cheap uses right before it's off cool down, but you might not get back stabs if you can't wait for the right moment.
+You can use Z whenever you want for the backstab, you can use it when you just missed it and then go for the backstab when they think you can or can't use it anymore, but it might break the bank and be a very risky play giving up your safety.
+You can get alot of damage out and a net return on stacks if you do them alot of normal stabs at the end of the cooldown, but you need to maintain status for that long to make it worth it.
+
+You can play safe, or really risky, if you play risky you can easily lose it all and it's harder to come back if you can't do backstabs to get lots of weeping. If you play safe, you can still lose since you lost stacks on kill, so it's a use it or lose it but you can still choose not to if you really wish to hold onto life insurance till the next fight.
+
+This has elements of assassin gameplay, waiting for the right moment. and elements of thief gameplay, dealing hit after hit and dodging attacks. All in a single mechanic.
+
+
+My idea would be to make V a rekka. Hold V to continue the move for 4 hits in total before it goes on cooldown, if done in a combo skip the the prior cast before the move comes out (if your last hit from any move within a second ago missed then perform the prior cast animation) which slows the player down, gives counterplay, and can actually be beneficial since you can adjust your position before the next hit comes out as the enemy is running away.
+
+
+C is honestly kinda okay, long ranged tools in this game are incredibly powerful and grant amazing utility, it's also a safe poke and neutral skip tool which primes you for a back stab and your main gameplay.
+
+
+Then for X you could make it give abyss stacks without a weeping status, then give it the bonus secondary effects that were removed from Z and it's backstab like the on hit weeping, max health damage, and the area of effect apply. Would be better for charging into a group with it since it has good range even if it's slow. You should always charge for the brute in a group, which plays into the assassin nature.
+
+    Sommelier:
+
+Heres my idea: Z is removed, if you have teameter then M1 is replaced with Z (now alt m1) so out of meter you get a few taps to finish the enemy and out of it you only have the super armour push which is the only thing i'm gonna give super armour. Alt m1 also pushes puddles on the ground forwards.
+
+While doing X you grab nearby puddles and spin them around you on the ground.
+
+It gets better the more traps you have setup. You create the arena around you and the enemy by being close to them and you can end it early so to surprise the enemy and slowly back them into a corner, but not do it too long so you can end it before you can let them have a chance to realise what's happening and escape the circle.
+
+The longer the move has been used the smaller the radius of the circle, so you want to use it for a long time to trap the enemy well.
+
+V is changed, after the spin throw your hammer. Disarm the enemy it hits and activate all puddles around where it hits if it hits an enemy or a surface. Normal V was too up close, didn't let you activate all puddles, was boring simple damage, and didn't really pressure enemies in the traps unless you were near them.
+
+For the C charge i'm really not sure. You could do a volcanic viper situation. Steerable charge forward that lays a line of tea puddles and then finish it off with the normal C swings.
+
+E (the button to build up tea meter) is a new move while you have tea, hold the button to shoot tea like fludd. good for covering the middle of the X circle, cutting off exits, pressuring them from afar, and just a decent utility.
+
+I don't know how i want to do the tea charge. Should i just make the charge longer and interrupt-able? or should i make it like an actual charge?
+
+Hold E to heat it up, switch mode when bar fills (tea has boiled), then stay in the mode till bar goes back to 0.
+
+Or just, press E, wait a few seconds in a cast animation, switch modes. One is alot more risky and fun for the enemy and fast paced, the other is more conservative and can actually be used while you're losing.

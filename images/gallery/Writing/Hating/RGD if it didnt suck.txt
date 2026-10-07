@@ -1,0 +1,126 @@
+	Sweeping changes:
+Lots of classes have been merged with others to make each one more unique,
+Each class has 3 abilties instead of 2 and dont scale in multiplayer. 
+
+I hate scaling in multiplayer it makes it so you never want to play with noobs
+ever due to them dragging you down if they die or just making unoptimal to do
+so. Any class that has focus on team play is STILL worse in multiplayer than
+single player due to scaling which is so stupid and backwards so its gone now.
+
+Every class is REQUIRED to have a different relationship with certain items, if
+they lack this the class isnt interesting enough and they will get torched.
+
+any time an item gets buffed, changed, or created, they can be dropped. 
+(only purchased items cant be dropped)
+
+most of the cooldown numbers are completely made up lol
+
+Brawler: (Merged with Reaper)
+
+	Survivor-
+
+	Paladin- Spawn with golden shield and defense blocks double its value.
+[/4] Barrier (Same as Guardian) doesnt use up block.
+[/10] Holy Heal- All allies and friendly droids heal 25 hp.
+[/5] Gain 2 defense and 1 block. 
+
+	Ranger- You cant use melee weapons, all ranged weapons have inf ammo but deal a forth of their base 
+damage and enemies aggro from any range as soon as theyre hit
+
+[/5] Deadeye- Restore your weapons base damage for 5 seconds. 
+[/15] Robin- Collect all circuits and items on the ground.
+[]
+
+	Engineer- Spawn with a droid remote.
+
+[/8] Convert- All friendly droids are converted to anti droids including the shopkeeper.
+[/8] Pacify- Turn the droid with the highest stats into a friendly droid. (they retain the stats and modifiers)
+[/15] Tweak- Give all friendly droids a negative modifier and heal them 50 hp.
+
+Airborne: (Merged with Ninja)
+
+	Tactician- (Almost everything is the same)
+[/8] Give all droids with a positive modifier the same one and give all droids with a negative one the same one.
+ 
+	Ninja- Stats you gain are doubled
+[/10] !powerup- (Same as Angelic Builder)
+[/15] Adapt- gain strength equal to a forth of your walkspeed and heal equal to your jumppower.
+[/5] Impale- (Same as Relic) Damage is based on sword damage* half of your strength.
+
+Gardener: (Merged with Alchemist)
+
+	Alchemist:- Spawns with watering can, every safe room has a cauldron.
+Watering can holds 5 charges and can be refilled at lakes, refilling deletes the water.
+
+[/10] Plant- Gain a random seed, seeds grow into berries. some berries grow faster under day or night.
+[/5] Alchemize- Turn the item/weapon your holding into a berry
+[/5] Scavenge- Gain an egg with a small change to turn into a few berries, higher with higher luck.
+
+Elementialist:
+Wizard:
+Cultist:
+
+	Gambler- 10% chance for consumable items to not be consumed.
+
+[/5] Wager- (Same as before)
+[/8] Bet on Black- 75% Give all droids positive modifiers, 25% Double all positive modifiers given
+[/12] High rolls- (Same as before)
+
+	Blacksmith- Spawn with a hammer, you can upgrade others swords (only swords can be upgraded) 
+and weapons upgraded with a hammer gain bonus buffs and scale with the hammers stats.
+
+[/10] Smith- (Same as before)
+[/15] Dig- (Same as before)
+[/]
+
+	Raider- When in a vault 2 items can be taken instead of 1
+
+[/9] Switch- When in a safe room you can swap an item for sale with the item your holding.
+[/3] Salvage- Deal 50 damage to an anti droid and gain a utility item.
+[/5] Yoink- If an enemy drops an item on insta-death, steal that item.
+
+Bloodmage:
+
+	Witch- All potion recipes now give spells.
+[/10] Cauldron trap- (Same as before)
+[/5] Transmute- Give all droids the fresh modifier
+[/5] Sever- Remove some of your stats in exchange for berries
+
+Dj:
+Icy Defender:
+Artist:
+Knight: (Merged with Paladin)
+Assassin: (Removed)
+Guardian: (Merged with Paladin)
+Monk:
+Illusionist:
+Stray:
+Angelic Builder:
+
+	Reaper- If you cant afford an item spend hp, if you still cant afford it spend max hp.
+[/4] Steal Soul- The enemy closest to you dies if under 25% hp, if any enemy dies without falling
+under 10% hp then gain 5 max hp.
+[/9] Dark Omen- (Same as before)
+[/5] Pact- Lose Max hp and gain strength.
+
+Scorcher:
+Merchant:
+Demolitionist:
+Vulcanist:
+Crusher:
+Seer:
+	Tinkerer- Higher chance for modifiers, if chance is above 100% higher chance for positive ones.
+[/3] Change- Any droids with a modifier can have their modifier rerolled
+[/5] Convert- Any droids under a status effect gains a modifier
+[/5] !Paint- (Same as Angelic Builder) If the room is even reroll droids to a higher level else lower
+
+[]
+
+Transcendent:
+Fool:
+Healer:
+Berserker: (Merged with Reaper)
+Sentient:
+Banker:
+Pie Baker:
+Relic:

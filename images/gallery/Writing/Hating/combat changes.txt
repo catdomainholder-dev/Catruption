@@ -1,0 +1,161 @@
+﻿
+
+
+PAINTBALL GUN: Im not the biggest fan of quickdraw cause it just makes gameplay with it spamming 1 and lmb as fast as you can and the paintball gun just isnt very useful or strong imo 
+
+the paintball line now has a new mechanic called QuickFire (like QuickMelee) you can set a keybind to shoot the gun at any time 
+
+while holding the paintball gun you can hold right click to zoom in as its kinda hard to shoot enemies while in first person in high povs (PLEASE I BEG OF YOU REPLACE THE CROSSHAIR IT SUCKS IT COVERS THE ENTIRE ENEMY)
+
+damage scales based on how fast your moving, in the bottom right theres a percentage that shows how much your damage will get multiplied by, so anything that can boost you synergizes greatly
+
+
+FREEZE RAY: Ice potency scales too slowly and ice imbuement isnt useful enough and allies and weak attacks can break Deepice before you get a strong combo off
+
+Bosses or enemies that cant be frozen will now be frozen. Problem? :troll: (for real tho i think this is fine as lots of bosses can already be stunned and it takes effort to settup for big potency)
+to Deepfreeze them only exception is probably drakko cause theyre the fire one)
+
+if you freeze a rocket itll fall down and deal alot of damage and Deepfreeze enemies, charge shot travels faster for this.
+
+
+REVOLVER: Replaces bbgun, bbgun is too similar to the paintball gun in both damage, function, and firerate and has synergy with only a single weapon.(cannonball)
+
+on alt fire you fan the hammer and shoot all 6 bullets real fast
+
+has 6 bullets, reloads only when the gun is holstered, shooters slower when quickfired
+
+rockets cause a reaction when shot at with the revolver
+
+cause you have 6 bullets you have one for each of the slingshots pellets which is pretty nice
+
+if you shoot bricks on a trowel wall they launch out and can hit enemies for alot of damage
+
+
+CHAKRAM: Replaces cannonball, cannonball is too similar to the superball in terms of function and only has a few synergies which could be put onto the superball with no consequence. 
+it feels like they split the same weapon into 2 for no real reason, some of the synergies will be moved to superball and chakram and will be listed on their pages tell me if i missed any
+(this could be a third upgrade but i dont think thats a good idea as it would just bloat the weaponlist for no real reason)
+
+Acts like a sort of melee weapon with m1, it gets swung in an parabola in front of you and only has a hitbox when its at the furthest distance away from you giving it alot of blindspots
+
+alt fire needs to be earned by hitting people with the m1, when cast you throw the chakram at an enemy and it will bounces back to you where you can parry it back for extra damage 
+preferably with a katana, if it doesnt hit an enemy you get teleported to its position.
+
+can still chargeback and countercast like the cannonball
+
+if thrown at slingshot pellets they will be split in half (once) allowing you to get "more bang for your buck"
+
+can be imbued with fire, ice, or lighting while your still holding it! turning any effect you want into a melee.
+
+
+FLAMETHROWER: 
+
+If you shoot the paintball gun while firing the flamethrower it gets a dragons fury like blast which does alot of damage 
+
+if your using it while using firebrands blaze it will charge it up and make the firebrands attack stronger
+
+
+SUPERBALL: 
+
+now comes back to you when hitting an enemy allowing you to double dip atleast once
+
+bullets from the revolver shot at it will now deflect like the cannonball did
+
+
+KATANA: 
+
+cooldown is now reset by more projectiles mainly superball and slingshot pellets
+
+
+
+Imbuement changes: 
+
+Wizards can now imbue everything on the list
+
+Firebrands blazed can now imbue all player owned projectiles
+
+Shurikens: 
+Two lightning imbued shurikens now connect a line of lightning between them
+Three or more ice imbued shurikens hitting an enemy will cause a deep ice
+
+Superball/cannonball: 
+Lightning imbued superballs now shock enemies near them making them like mini turrets
+deep ice imbued superballs (charged shot) will now deep freeze greater enemies
+
+
+Staff of Sparks: (Replaces BBgun) Works on a percentage system like flamethrower. Holding left click will hightlight an area on your cursor, when left click is released 
+your character will play a wind up animation before striking the ground which will zap the highlighed area and deal high damage but its difficult to hit people with it
+since it takes so long. when used with its version of quick-melee you will simple fire a hitscan beam forward that deals more damage the longer its held on the enemy but it drains percentage quickly.
+you could parry a bomb before striking the bomb in midair with hold click to create a lightning nuclear reaction
+if you hold the staff while slamming with slateskin you will create an electric shockwave when you hit the ground
+
+
+Pinata: 
+
+stays in the place you threw it now and takes ALOT MORE damage to explode but also deals alot more damage making it a team strategy now
+
+everyone also has the ability to imbue the bomb not just the user
+
+
+Sniper: Reloads alot faster and is a lot weaker but pierces enemies deals 3x hitscan damage on headshots and deals more damage the faster your moving
+shooting a trowel wall with the sniper will cause it to explode just like a rocket and if you shoot a superball all enemies in a radius around it will fly upwards
+you can then shoot them with a rocket to cause fireworks :D
+
+Mortar launcher: shoots a much slower rocket that gets stronger the longer it stays in the air, you can deflect it upwards to keep it up 
+aswell as hitting it with a superball
+
+Radar: Shows locations of greater enemies, items, and allies at all times aswell as showing
+attack timers and hitboxes for your weapons, bosses, and greater enemeies. which helps with parries and dodging certain moves.
+health bars for greater enemies are always shown along with damage numbers
+
+
+
+
+Ranger build
+BB gun, Cannonball, Wrench, Flamethrower, 600 tix
+slateskin, witches brew. Stratobloxxer
+
+Captains Hat/Secret Kid Wizard Glasses/Sweatband, Red Untitled Cowboy,
+
+
+
+Lightning Bombs Build
+Katana, Shurikens, Subspace Tripmine, 550 tix
+witches brew, Epicsauce, Decoy Deploy, Bloxy cola,
+Electric Punk, Thinking Cap,
+
+
+Firebrand Dps/Tank Build
+Firebrand, slingshot, timebomb, rocket launcher, 450 tix
+Reflector, Epicsauce, Stratobloxxer, Battle Armour, Bloxy Cola,
+Superhero mask, chef hat, bandana, bloxmaster, pikeman helmet,
+
+Bomb Build
+Freeze ray, Slingshot, Firebrand, 500 Tix
+
+
+Sephiroth Build
+Katana, Shurikens, Freeze ray, 
+Bloxy cola, Decoy Deploy, Cheeseburger,
+Bandana, pikeman helmet,
+
+
+Aggressive Ranger/Max Score Build
+Scatterblaster, trowel, 
+Captains Hat, Red Untitled Cowboy, 
+
+
+
+
+
+
+Randomizer Build
+Sling, Freeze ray, Bazooka, 350 tix
+Bloxiade, Grappling hook, Zombie staff,
+Blue hat, Tixsplosion,
+
+
+
+Yolo Turret Build
+Freeze Ray, Shurikens, Wrench, Firebrand, 850/-900 tix
+Teddy, Epicsauce, Cheeseburger,
+Shaggy, Knight Helm(Sacred)/Black Ninja Headband,    
