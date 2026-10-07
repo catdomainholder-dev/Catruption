@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My mind</title>
+    <link rel="stylesheet" href="Things.css">
+    <link rel="icon" type="image/webp" href="images/desktop/favicon.webp">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <!-- ============================================
+         VIDEO BACKGROUND
+         ============================================ -->
+
+    <video
+        id="video-bg"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 0;
+        "
+    >
+        <source
+            src="https://files.catbox.moe/o0vhwv.mp4"
+            type="video/mp4">
+    </video>
+
+
+    <!-- ============================================
+         DESKTOP
+         ============================================ -->
+
+    <div class="desktop-layer">
+
+
+        <!-- ========================================
+             DESKTOP UI
+             ======================================== -->
+
+        <div class="ui-layer">
+
+            <div class="ui-top">
+
+                <h1>Catruption</h1>
+
+                <div class="input-container">
+
+                    <input
+                        type="text"
+                        id="talk-input"
+                        placeholder="Say a word, any word."
+                        maxlength="20"
+                        autocomplete="off">
+
+                    <div id="status"></div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ========================================
+                 CHARACTER
+                 ======================================== -->
+
+            <img
+                id="character"
+                src="/images/idle.webp"
+                alt="A blocky character with a keychain on top"
+                title="Is there something you need..?">
+
+        </div>
+
+
+        <!-- ============================================
+             DESKTOP ICONS
+             ============================================ -->
+
+             <!-- ========================================
+                 ENTROPY
+                 ======================================== -->
+
+            <div
+                class="desktop-icon"
+                data-id="clock"
+                data-src="images/desktop/Entropy.webp"
+                data-x="80%"
+                data-y="60%"
+                data-width="1200"
+                data-highlight="false">
+
+                <img
+                    src="images/desktop/Entropy.webp"
+                    alt="Clock">
+
+            </div>
+
+        <div
+            class="desktop-icon"
+            data-id="fanfic"
+            data-src="images/desktop/fanfic.gif"
+            data-hover-src="images/desktop/fanfic-hover.gif"
+            data-x="85%"
+            data-y="90%"
+            data-width="200"
+            data-hover-scale="1.08"
+            data-action="book"
+            data-window="true"
+            data-book-src="images/themes/book/book.webp"
+            data-book-text="Warriors - Never or Now.txt"
+            data-book-text-limit="19775"
+            data-window-theme="book"
+            data-window-title="Warriors - Never or Now"
+            data-window-width="1500"
+            data-window-height="1500"
+            data-window-x="0"
+            data-window-y="0"
+            data-highlight="true">
+        </div>
+
+            <!-- ========================================
+                 ABOUT ME
+                 ======================================== -->
+
+            <div
+                class="desktop-icon"
+                data-id="me"
+                data-src="images/desktop/me.webp"
+                data-hover-src="images/desktop/me-hover.webp"
+                data-active-src="images/desktop/me-active.webp"
+                data-x="10%"
+                data-y="10%"
+                data-width="200"
+                data-hover-scale="1.08"
+                data-action="toggle"
+                data-window="true"
+                data-window-action="toggle"
+                data-window-x="-470"
+                data-window-y="-80"
+                data-window-width="1500"
+                data-window-height="1500"
+                data-window-theme="steel"
+                data-window-title="About Me"
+                data-window-html="windows/me.html"
+                data-highlight="true">
+
+                <img
+                    src="images/desktop/me.webp"
+                    alt="Metatron's cube">
+
+                <span class="icon-label">
+                    About Me
+                </span>
+
+            </div>
+
+
+            <!-- ========================================
+                 MUSIC
+                 ======================================== -->
+
+            <div
+                class="desktop-icon"
+                data-id="music"
+                data-src="images/desktop/music.png"
+                data-hover-src="images/desktop/music-hover.png"
+                data-active-src="images/desktop/music-active.png"
+                data-x="90%"
+                data-y="10%"
+                data-width="200"
+                data-hover-scale="1.08"
+                data-action="toggle"
+                data-window="true"
+                data-window-action="toggle"
+                data-window-x="-470"
+                data-window-y="-80"
+                data-window-width="1500"
+                data-window-height="1500"
+                data-window-theme="music"
+                data-window-title="Fitting mixtape"
+                data-window-url="https://www.youtube-nocookie.com/embed?listType=playlist&list=PLDVXNpDTCkYQ&index=1"
+                data-highlight="true">
+
+                <img
+                    src="images/desktop/music.png"
+                    alt="Music">
+
+                <span class="icon-label">
+                    music boiii
+                </span>
+
+            </div>
+
+
+            <!-- ========================================
+                 ART GALLERY
+                 ======================================== -->
+
+            <div
+                class="desktop-icon"
+                data-id="art"
+                data-src="images/desktop/art.webp"
+                data-hover-src="images/desktop/art-hover.webp"
+                data-x="25%"
+                data-y="10%"
+                data-width="200"
+                data-hover-scale="1.08"
+                data-action="gallery"
+                data-window="true"
+                data-gallery-src="images/manifest.json"
+                data-gallery="gallery"
+                data-window-theme="test"
+                data-window-title="The Gallery"
+                data-window-width="1500"
+                data-window-height="1500"
+                data-window-x="0"
+                data-window-y="0"
+                data-highlight="true">
+
+                <img
+                    src="images/desktop/art.webp"
+                    alt="Art Gallery">
+
+                <span class="icon-label">
+                    Art Gallery
+                </span>
+
+            </div>
+
+
+            <!-- ========================================
+                 ROBLOX
+                 ======================================== -->
+
+            <div
+                class="desktop-icon"
+                data-id="roblox"
+                data-src="images/desktop/roblox.png"
+                data-hover-src="images/desktop/roblox.png"
+                data-active-src="images/desktop/roblox.png"
+                data-x="75%"
+                data-y="10%"
+                data-width="200"
+                data-hover-scale="1.08"
+                data-action="toggle"
+                data-window="true"
+                data-window-action="toggle"
+                data-window-x="-470"
+                data-window-y="-80"
+                data-window-width="2200"
+                data-window-height="1800"
+                data-window-theme="roblox"
+                data-window-title="Holey shieet..."
+                data-window-url="https://jot.chat/+7vwp7HYroSfsLQ"
+                data-highlight="true">
+
+                <img
+                    src="images/desktop/roblox.png"
+                    alt="Roblox">
+
+                <span class="icon-label">
+                    Roblox
+                </span>
+
+            </div>
+
+
+            <!-- ========================================
+                 PHONE
+                 ======================================== -->
+
+            <div
+                class="desktop-icon"
+                data-id="phone"
+                data-src="images/desktop/dialing.webp"
+                data-x="20%"
+                data-y="85%"
+                data-width="400"
+                data-action="custom">
+            </div>
+
+
+            <!-- ========================================
+                 REFRESH
+                 ======================================== -->
+
+            <div
+                class="desktop-icon"
+                data-id="refresh"
+                data-src="images/desktop/refresh.png"
+                data-hover-src="images/desktop/refresh-hover.png"
+                data-x="50%"
+                data-y="10%"
+                data-width="80"
+                data-hover-scale="1.08"
+                data-action="command"
+                data-command="refresh"
+                data-command-data='{"source":"desktop"}'>
+
+                <img
+                    src="images/desktop/refresh.png"
+                    alt="Refresh">
+
+                <span class="icon-label">
+                    Refresh
+                </span>
+
+            </div>
+
+
+            <!-- ========================================
+                 CUSTOM
+                 ======================================== -->
+
+            <div
+                class="desktop-icon custom-icon"
+                data-id="custom"
+                data-src="images/desktop/custom.png"
+                data-x="65%"
+                data-y="10%"
+                data-width="80"
+                data-hover-scale="1.08">
+
+                <img
+                    src="images/desktop/custom.png"
+                    alt="Custom">
+
+                <span class="icon-label">
+                    Custom
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- ============================================
+             WINDOWS
+             ============================================ -->
+
+        <div class="window-layer"></div>
+
+    </div>
+
+
+    <!-- ================================================
+         DESKTOP SYSTEMS
+         ================================================ -->
+
+    <script src="character-system.js"></script>
+    <script src="window.js"></script>
+    <script src="window-draw.js"></script>
+    <script src="window-interactions.js"></script>
+    <script src="window-html.js"></script>
+    <script src="window-controller.js"></script>
+    <script src="window-gallery.js"></script>
+    <script src="window-book.js"></script>
+    <script src="page-images.js"></script>
+    <script src="responses.js"></script>
+
+    <script src="https://unpkg.com/packery@3/dist/packery.pkgd.min.js"></script>
+
+
+    <!-- ================================================
+         CUSTOM EVENTS
+         ================================================ -->
+
+    <script>
+
+        document.addEventListener(
+            'DOMContentLoaded',
+            () => {
+
+                document
+                    .querySelector('.custom-icon')
+                    ?.addEventListener(
+                        'click',
+                        event => {
+
+                            const object =
+                                event.currentTarget
+                                    ._interactiveObject;
+
+                            if (!object) {
+                                return;
+                            }
+
+                            console.log(
+                                '🎯 Custom icon clicked!',
+                                object
+                            );
+
+                            const status =
+                                document.getElementById('status');
+
+                            if (status) {
+                                status.textContent =
+                                    '✨ Custom action triggered!';
+                            }
+
+                        }
+                    );
+
+
+                document.addEventListener(
+                    'object-rightclick',
+                    event => {
+
+                        const {
+                            object
+                        } = event.detail;
+
+                        console.log(
+                            '🔄 Right-click on:',
+                            object.id
+                        );
+
+                        const status =
+                            document.getElementById('status');
+
+                        if (status) {
+
+                            status.textContent =
+                                `🔄 Right-clicked: ${object.id}`;
+
+                        }
+
+                    }
+                );
+
+
+                document.addEventListener(
+                    'object-state-change',
+                    event => {
+
+                        const {
+                            object,
+                            oldState,
+                            newState
+                        } = event.detail;
+
+                        console.log(
+                            `📊 ${object.id}: ${oldState} → ${newState}`
+                        );
+
+                    }
+                );
+
+
+                document.addEventListener(
+                    'page-images-ready',
+                    event => {
+
+                        const objects =
+                            event.detail.objects;
+
+                        console.log(
+                            `🎉 Page Images ready! ${objects.length} objects initialized`
+                        );
+
+                        objects.forEach(
+                            object => {
+
+                                console.log(
+                                    `  - ${object.id}: ${object.action}`
+                                );
+
+                            }
+                        );
+
+                    }
+                );
+
+
+                document.addEventListener(
+                    'window-content-loaded',
+                    event => {
+
+                        const status =
+                            document.getElementById('status');
+
+                        if (status) {
+
+                            status.textContent =
+                                `📄 Loaded: ${event.detail.id}`;
+
+                        }
+
+                    }
+                );
+
+            }
+        );
+
+
+        // ============================================
+        // PROGRAMMATIC ICON CREATION
+        // ============================================
+
+        function addDesktopIcon(config) {
+
+            const container =
+                document.querySelector(
+                    '.desktop-icons'
+                );
+
+            if (!container) {
+                return null;
+            }
+
+            const div =
+                document.createElement('div');
+
+            div.className =
+                'desktop-icon';
+
+            Object.keys(config).forEach(
+                key => {
+
+                    div.dataset[key] =
+                        config[key];
+
+                }
+            );
+
+            const img =
+                document.createElement('img');
+
+            img.src =
+                config.src ||
+                config['data-src'] ||
+                '';
+
+            div.appendChild(img);
+
+            const label =
+                document.createElement('span');
+
+            label.className =
+                'icon-label';
+
+            label.textContent =
+                config.label ||
+                config.id ||
+                'Icon';
+
+            div.appendChild(label);
+
+            container.appendChild(div);
+
+            return div;
+        }
+
+    </script>
+
+
+    <!-- ================================================
+         GALLERY PRELOAD
+         ================================================ -->
+
+    <script>
+
+        document.addEventListener(
+            'DOMContentLoaded',
+            () => {
+
+                const gallerySystem =
+                    window.getGallerySystem?.();
+
+                if (!gallerySystem) {
+                    return;
+                }
+
+                gallerySystem
+                    .loadManifest()
+                    .then(
+                        () => {
+
+                            console.log(
+                                '📚 Gallery manifest pre-loaded'
+                            );
+
+                        }
+                    );
+
+            }
+        );
+
+    </script>
+
+</body>
+</html>
